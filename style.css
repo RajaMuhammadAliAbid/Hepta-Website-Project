@@ -1,0 +1,1206 @@
+* {
+    margin: 0;
+    padding: 0;
+   }
+/* ------ Media Query ------ */
+@media (max-width: 2561px) {
+    html,body {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;  
+    }
+}
+
+                                    /* Heros Section */
+
+.heros-section {
+    width: 100%;
+    height: 700px;
+    height: 100vh;
+    background: url(images/heros-img.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+/* Img Section */
+
+/* Img Overlay */
+.heros-section .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 109%;
+    height: 100vh;
+    background: #21252947;
+}
+/* Logo Section */
+.heros-section .container-fluid {
+    position: absolute;
+    font-weight: bold;
+    font-family: "Abril Fatface", times, serif;
+    padding-top: 120px;
+    padding-left: 20px;
+    z-index: 2;
+}
+.heros-section .container-fluid a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 35px;
+    
+}
+/*Menu Icon Section */
+
+/* Heading Section */
+.heros-section .site-heading h1 {
+    position: absolute;
+    font-weight: bold;
+    font-size: 70px;
+    color: #fff;
+    padding-left: 32%;
+    line-height: 90vh;
+    z-index: 2;
+}
+
+/* ------ Media Query ------ */
+@media (min-width: 2000px) and (max-width: 2561px) {
+    .heros-section .site-heading h1 {
+        padding-left: 40%;
+    }
+}
+@media (max-width: 992px) {
+    .heros-section .site-heading h1 {
+        font-size: 60px;
+    }
+}
+@media (max-width: 768px) {
+    .heros-section .site-heading h1 {
+        font-size: 40px;
+    }
+}
+@media (max-width: 500px) {
+    .heros-section .site-heading h1 {
+        margin-left: -50px;
+    }
+}
+/* ------ Media Query ------ */
+@media (max-width: 424px) {
+    .heros-section .site-heading h1 {
+        padding-left: 100px;
+    }
+}
+@media (max-width: 374px) {
+    .heros-section .site-heading h1 {
+        font-size: 35px;
+        padding-left: 85px;
+    }
+}
+/* Paragraph Section */
+.heros-section .site-para {
+    position: absolute;
+    color: #fff;
+    font-size: 23px;
+    padding-left: 31%;
+    line-height: 113vh;
+    z-index: 2;
+}
+
+/* ------ Media Query ------ */
+@media (min-width: 2000px) and (max-width: 2561px) {
+    .heros-section .site-para {
+        padding-left: 40%;
+    }
+}
+@media (max-width: 992px) {
+    .heros-section .site-para {
+        font-size: 18px;
+    }
+}
+@media (max-width: 768px) {
+    .heros-section .site-para {
+        font-size: 16px;
+        margin-left: -30px;
+    }
+}
+@media (max-width: 500px) {
+    .heros-section .site-para {
+        font-size: 16px;
+        margin-left: -80px;
+    }
+}
+/* ------ Media Query ------ */
+@media (max-width: 424px) {
+    .heros-section .site-para {
+        font-size: 13px;
+        padding-left: 125px;
+    }
+}
+@media (max-width: 374px) {
+    .heros-section .site-para {
+        font-size: 12px;
+        padding-left: 110px;
+    }
+}
+.heros-section .site-para a {
+    color: #fff;
+    opacity: 0.5;    
+}
+.heros-section .site-para a:hover{
+    color: aqua;
+} 
+/* Button Section */
+.heros-section .site-button {
+    position: absolute;
+    line-height: 150vh;
+    padding-left: 40%;
+    z-index: 2;
+}
+/* ------ Media Query ------ */
+@media (min-width: 2000px) and (max-width: 2561px) {
+    .heros-section .site-button {
+        padding-left: 45%;
+    }
+}
+@media (max-width: 768px) {
+    .heros-section .site-button {
+        margin-left: -40px;
+    }
+}
+@media (max-width: 500px) {
+    .heros-section .site-button {
+        margin-left: -70px;
+    }
+}
+/* ------ Media Query ------ */
+@media (max-width: 424px) {
+    .heros-section .site-button {
+        margin-left: -90px;
+    }
+}
+@media (max-width: 374px) {
+    .heros-section .site-button {
+        margin-left: -95px;
+    }
+}
+.heros-section .site-button a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    border: 2px solid #fff;
+    width: 20px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+}
+.heros-section .site-button a:hover {
+    background-color: #fff;
+    color: #000;
+}
+/* Scroll Down */
+.heros-section .scroll-down {
+    position: absolute;
+    line-height: 209vh;
+    padding-left: 46.5%;
+    text-transform: uppercase;
+    font-size: 12px;
+    z-index: 2;
+}
+.heros-section .scroll-down a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+                           /* Welcome To Our Website Section */
+.welcome-section {
+    width: 100%;
+    height: 900px;    
+}
+/* ------ Media Query ------ */
+@media (min-width: 2000px) and (max-width: 2561px) {
+    .welcome-section {
+        margin-left: 150px;
+    }
+}
+@media (max-width: 1300px) {
+    .welcome-section {
+        display: inline-block;
+    }
+}
+/*Img Section */
+.welcome-section img {
+  width: 520px;
+  height: 600px;
+  margin: 100px 80px 100px 100px;
+  float: left;
+}
+
+/* ------ Media Query ------ */
+@media (min-width: 2000px) and (max-width: 2561px) {
+    .welcome-section img {
+        height: 700px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1024px) {
+    .welcome-section img {
+        width: 450px;
+        margin-left: 20px;
+    }
+}
+/* ------ Media Query ------ */
+@media (max-width: 768px) {
+    .welcome-section img  {
+        margin: 100px 100px 10px 120px;
+    }
+}
+@media (max-width: 426px) {
+    .welcome-section img {
+        width: 350px;
+        margin-left: 40px;
+    }
+}
+@media (max-width: 376px) {
+    .welcome-section img {
+        width: 350px;
+        margin-left: 15px;
+    }
+}
+@media (max-width: 321px) {
+    .welcome-section img {
+        width: 280px;
+        margin-left: 25px;
+    }
+}
+/* Text Section */
+.welcome-section .text {
+    padding-top: 200px;   
+}
+/* ------ Media Query ------ */
+@media (max-width: 768px) {
+    .welcome-section .text   {
+        padding-left: 120px;
+    }
+}
+@media (max-width: 426px) {
+    .welcome-section .text {
+        padding-left: 40px;
+    }
+}
+@media (max-width: 376px) {
+    .welcome-section .text {
+        padding-left: 20px;
+    }
+}
+/* Heading */
+.welcome-section .text h2 {
+    font-family: "Abril Fatface", times, serif;
+    font-weight: bolder;
+    line-height: 1.8;
+}
+/* ------ Media Query ------ */
+@media (min-width: 400px) and (max-width: 576px) {
+    .welcome-section .text h2 {
+        font-size: 20px;
+    }
+}
+/* Paragraph */
+.welcome-section .text p {
+    font-size: 1.4vw;
+    line-height: 1.8;
+    color: #6c757d;
+}
+/* ------ Media Query ------ */
+@media (min-width: 400px) and (max-width: 576px) {
+    .welcome-section .text p  {
+        font-size: 15px;
+    }
+}
+/* ------ Media Query ------ */
+@media (max-width: 768px) {
+    .welcome-section .text p  {
+        font-size: 1.9vw;
+    }
+}
+@media (max-width: 426px) {
+    .welcome-section .text p  {
+        font-size: 2.8vw;
+    }
+}
+/* Button Section */
+.welcome-section .play-button {
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-weight: bold;
+    padding-top: 30px;
+    
+}
+
+/* Button Link */
+.welcome-section .play-button a {
+    text-decoration: none;
+}
+/*Button Icon */
+.welcome-section .play-button .button-icon {
+    background-color: #fff;
+    border: 2px solid #e6e6e6;
+    border-radius: 50%;
+    padding: 10px 10px 10px 17px;
+    color: #65c0ba;
+}
+.welcome-section .play-button .button-icon:hover {
+    color: black;
+}
+/* Button Text */
+.welcome-section .play-button .text {
+    color: #65c0ba;
+} 
+.welcome-section .play-button .text:hover {
+    color: black;
+}
+ 
+                              /* Experience Section */
+.experience-section {
+    width: 100%;
+    height: 1000px;
+    background: #e4eaef47;
+}
+/* ------ Media Query ------ */
+@media (min-width: 2000px) and (max-width: 2561px) {
+    .experience-section  {
+        width: 100%;
+        height: 1100px;
+        margin-top: 40px;
+    }
+}
+@media (max-width: 768px) {
+    .experience-section  {
+        width: 100%;
+        height: 1150px;
+        margin-top: 40px;
+    }
+}
+/* ------ Media Query ------ */
+@media (max-width: 426px) {
+    .experience-section  {
+        width: 100%;
+        height: 2100px;
+        margin-top: 40px;
+    }
+}
+/* Text */
+.experience-section .text {
+    text-align: center;
+    padding-top: 100px;
+}
+/*Heading */
+.experience-section .text h2 {
+    font-family: "Abril Fatface", times, serif;
+    font-weight: bolder;
+}
+/* Paragraph */
+.experience-section .text p {
+    font-size: 2vw;
+    line-height: 1.8;
+    color: #6c757d;
+}
+/* ------ Media Query ------ */
+@media (max-width: 426px) {
+    .experience-section .text p {
+        font-size: 4.7vw
+    }
+}
+/* ------ Media Query ------ */
+@media (max-width: 376px) {
+    .experience-section .text p {
+        font-size: 5vw
+    }
+}
+/* ------ Media Query ------ */
+@media (max-width: 321px) {
+    .experience-section .text p {
+        font-size: 5vw
+    }
+}
+/* (First Row) */
+/* First Image Logo */
+.experience-section .first-row {
+    width: 33.33%;
+    text-align: center;
+    float: left;
+}
+/* ------ Media Query ------ */
+@media (max-width: 992px) {
+    .experience-section .first-row {
+        width: 50%;
+    }
+}
+@media (max-width: 576px) {
+    .experience-section .first-row {
+        width: 100%;
+    }
+}
+
+.experience-section .img-first {
+  padding-top: 60px;
+}
+.experience-section .first-text h3 {
+    padding-top: 20px;
+    font-family: "Abril Fatface", times, serif;
+    font-weight: bolder;
+    color: black;
+}
+.experience-section .first-text p {
+    line-height: 1.8;
+    color: #6c757d;
+}
+
+/* Second Row */
+/* Fourth Image Logo */
+.experience-section .second-row {
+    width: 33.33%;
+    text-align: center;
+    float: left;
+}
+/* ------ Media Query ------ */
+@media (max-width: 992px) {
+    .experience-section .second-row {
+        width: 50%;
+    }
+}
+@media (max-width: 576px) {
+    .experience-section .second-row {
+        width: 100%;
+    }
+}
+.experience-section .img-second img {
+  padding-top: 65px;
+}
+.experience-section .second-text h3 {
+    padding-top: 20px;
+    font-family: "Abril Fatface", times, serif;
+    font-weight: bolder;
+    color: black;
+}
+.experience-section .second-text p {
+    line-height: 1.8;
+    color: #6c757d;
+}
+
+
+                            /* International Tour Management Section */
+/* International Tour Main Text */                            
+.internation-tour-section .text {
+    text-align: center;
+    padding-top: 100px;
+}
+/* International Tour Heading */
+.internation-tour-section .text h1 {
+    font-size: 70px;
+    font-family: "Abril Fatface", times, serif;
+    line-height: 1;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    color: #000;
+    font-weight: bold;
+}
+    /* ------ Media Query ------ */
+@media (min-width: 400px) and (max-width: 992px) {
+    .internation-tour-section .text h1 {
+        font-size: 40px;
+    }
+}
+/* ------ Media Query ------ */
+@media (max-width: 376px) {
+    .internation-tour-section .text h1 {
+        font-size: 30px
+    }
+}
+/* International Tour Paragraph */
+.internation-tour-section .text p {
+    font-size: 2vw;
+    font-weight: 300;
+    line-height: 1.8;
+    color: #6c757d;
+}
+ /* ------ Media Query ------ */
+ @media (max-width: 426px) {
+    .internation-tour-section .text p {
+        font-size: 4.9vw;
+    }
+}
+
+                    /* Images Silder Section */
+.img-slider img {
+    width:1110px;
+    margin-right: 10px;
+}
+/* ------ Media Query ------*/
+@media (min-width: 2000px) and (max-width: 2561px) {
+    .img-slider img {
+        margin-left: 430px;
+    }
+}
+@media (min-width: 1300px) and (max-width: 1441px) {
+    .img-slider img {
+        margin-left: 5px;
+    }
+}
+@media (min-width: 1120px) and (max-width: 1250px) {
+    .img-slider img {
+        width: 1000px;
+        margin-left: -20px;
+    }
+}
+@media (max-width: 1025px) {
+    .img-slider img {
+        width: 900px;
+        margin-left: -30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .img-slider img {
+        width: 600px;
+        margin-left: 15px;
+    }
+}
+@media (max-width: 426px) {
+    .img-slider img {
+        width: 370px;
+        margin-left: -15px;
+    }
+}
+@media (max-width: 376px) {
+    .img-slider img {
+        width: 350px;
+        margin-left: -22px;
+    }
+}
+@media (max-width: 320px) {
+    .img-slider img {
+        width: 300px;
+        margin-left: -20px;
+    }
+}
+                       /* Blog Post Section */
+
+/* Blog Post Background Color / height / width Set */                          
+.blog-post {
+    width: 100%;
+    height: 1400px;
+    background-color: #65c0ba;
+    margin-top: -500px;
+    padding-top: 500px;
+}
+/* ------ Media Query ------ */
+@media (min-width: 2000px) and (max-width: 2561px) {
+    .blog-post {
+        width: 100%;
+        height: 1600px;
+        margin-top: -500px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1025px) {
+    .blog-post {
+        width: 100%;
+        height: 1820px;
+        margin-top: -350px;
+    }
+}
+@media (max-width: 768px) {
+    .blog-post {
+        width: 100%;
+        height: 2000px;
+        margin-top: -230px;
+    }
+}
+@media (max-width: 426px) {
+    .blog-post {
+        width: 100%;
+        height: 2200px;
+        margin-top: -200px;
+    }
+}
+@media (max-width: 376px) {
+    .blog-post {
+        width: 100%;
+        height: 2300px;
+        margin-top: -170px;
+    }
+}
+@media (max-width: 320px) {
+    .blog-post {
+        width: 100%;
+        height: 2300px;
+        margin-top: -140px;
+    }
+}
+/* Blog Post Main Text */
+.blog-post .text {
+    padding-top: 50px;
+    text-align: center;
+}
+/* ------ Media Query ------ */
+@media (min-width: 768px) and (max-width: 992px) {
+    .blog-post .text {
+        margin-top: -150px;
+    }
+}
+@media (max-width: 768px) {
+    .blog-post .text {
+        margin-top: -270px;
+    }
+}
+/* Blog Post Main Heading */
+.blog-post .text h2 {
+    font-size: 70px;
+    font-family: "Abril Fatface", times, serif;
+    line-height: 1;
+    margin-bottom: 30px;
+    color: #000;
+    font-weight: bolder;
+}
+/* ------ Media Query ------ */
+@media (min-width: 400px) and (max-width: 992px) {
+    .blog-post .text h2 {
+        font-size: 40px;
+    }
+}
+/* Blog Post Main Paragraph */
+.blog-post .text p {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 2vw;
+    font-weight: 350;
+}
+
+/* ------ Media Query ------ */
+@media (max-width: 426px) {
+    .blog-post .text p {
+        font-size: 4.8vw;
+    }
+}
+
+/* First Album */
+/* Blog Post Album Part */
+.blog-post .album {
+    width: 33.33%;
+    padding-top: 50px;
+    padding-left: 110px;
+    float: left;
+    margin-left: -35px;
+}
+
+/* ------ Media Query ------ */
+@media (min-width: 2000px) and (max-width: 2561px) {
+    .blog-post .album {
+        margin-right: -150px;
+        margin-left: 120px;
+    }
+}
+@media (max-width: 1200px) {
+    .blog-post .album {
+        width: 50%;
+    }
+}
+@media (max-width: 850px) {
+    .blog-post .album {
+        width: 100%;
+        padding: 30px 0px 30px 200px;
+    }
+}
+@media (max-width: 600px) {
+    .blog-post .album {
+        width: 100%;
+        padding: 30px 0px 30px 100px;
+    }
+}
+@media (max-width: 426px) {
+    .blog-post .album {
+        margin-left: -60px;
+    }
+}
+@media (max-width: 376px) {
+    .blog-post .album {
+        margin-left: -88px;
+    }
+}
+@media (max-width: 321px) {
+    .blog-post .album {
+        margin-left: -95px;
+    }
+}
+/* Blog Post Album Part Border Part */
+.blog-post .album .first-album {
+    border: 1px solid #fff;
+    width: 350px;
+    height: 550px;
+    background-color: #fff;
+}
+/* ------ Media Query ------ */
+@media (max-width: 1200px) {
+    .blog-post .album .first-album {
+        width: 350px;
+        height: 470px;
+    }
+}
+/* ------ Media Query ------ */
+@media (min-width: 200px) and (max-width: 321px) {
+    .blog-post .album .first-album {
+        width: 310px;
+        height: 470px;
+    }
+}
+/* Blog Post Album Part Text */
+.blog-post .first-text {
+    text-align: left;
+    padding-left: 30px;
+}
+/* Blog Post Album Part Post Date */
+.blog-post .first-text .post {
+    color: #ced4da;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    line-height: 6;
+}
+/* Blog Post Album Part Heading Part */
+.blog-post .first-text h2 {
+    font-family: "Abril Fatface", times, serif;
+    margin-top: -30px;
+    font-weight: bold;   
+}
+.blog-post .first-text h2 a {
+    color: #000;
+    text-decoration: none;
+}
+.blog-post .first-text h2 a:hover {
+    color: #65c0ba;
+}
+/* Blog Post Album Part Paragraph Part */
+.blog-post .first-text p {
+    line-height: 1.8;
+    color: #6c757d;
+}
+
+
+                              /* Happy Customer Section */
+.happy-customers-section {
+    width: 100%;
+    height: 700px;
+    background: #e4eaef47;
+}
+/* ------ Media Query ------ */
+@media (max-width: 580px) {
+    .happy-customers-section {
+        width: 100%;
+        height: 1100px;
+    }
+}
+@media (max-width: 376px) {
+    .happy-customers-section {
+        width: 100%;
+        height: 1000px;
+    }
+}
+/* Main Heading */
+.happy-customers-section h2 {
+    font-size: 70px;
+    font-family: "Abril Fatface", times, serif;
+    line-height: 5;
+    color: #000;
+    font-weight: bolder;
+    text-align: center;
+}
+/* ------ Media Query ------ */
+@media (min-width: 430px) and (max-width: 992px) {
+    .happy-customers-section h2 {
+        font-size: 40px;
+    }
+}
+@media (max-width: 426px) {
+    .happy-customers-section h2 {
+        font-size: 30px;
+    }
+}
+/* First Colums */
+.happy-customers-section .first-row {
+    width: 33.33%;
+    float: left;
+    margin-top: -50px;
+}
+/* ------ Media Query ------ */
+
+/* ------ Media Query ------ */
+@media (max-width: 576px) {
+    .happy-customers-section .first-row {
+        width: 100%;
+        margin-top: 40px;
+    }
+}
+/* Image Part */
+.happy-customers-section .first-row img {
+    border-radius: 50%;
+    margin-left: 80px;
+    margin-top: -30px;
+}
+/* ------ Media Query ------ */
+@media (max-width: 576px) {
+    .happy-customers-section .first-row img {
+        margin-left: 30px;
+    }
+}
+/* Paragraph Part */
+.happy-customers-section .first-text p {
+    line-height: 1.5;
+    font-size: 1.3vw;
+    color: #000;
+    opacity: 0.8;
+    font-style: italic;
+    margin-left: 80px;
+    padding-top: 20px;
+}
+/* ------ Media Query ------ */
+@media (max-width: 1025px) {
+    .happy-customers-section .first-text p {
+        font-size: 1.4vw;
+    }
+}
+@media (max-width: 768px) {
+    .happy-customers-section .first-text p {
+        font-size: 2.5vw;
+    }
+}
+@media (max-width: 576px) {
+    .happy-customers-section .first-text p {
+        font-size: 4vw;
+    }
+}
+/* Em */
+.happy-customers-section .first-text em {
+    font-style: italic;
+    color: #6c757d;
+    margin-left: 80px;
+}
+/*------ Media Query ------*/
+@media (max-width: 1025px) {
+    .happy-customers-section .first-text p {
+        margin-left: 50px;
+    }
+}
+
+
+
+                               /* Top Destination Section */
+.top-destination {
+    width: 100%;
+    height: 750px;
+}
+/* ------ Media Query ------ */
+@media (max-width: 992px) {
+    .top-destination {
+        width: 100%;
+        height: 970px;
+    }
+}
+@media (max-width: 426px) {
+    .top-destination {
+        width: 100%;
+        height: 1550px;
+    }
+}
+/* Main Text */
+.top-destination .text {
+    text-align: center;
+    padding-top: 120px;
+}
+@media (max-width: 768px) {
+    .top-destination .text {
+        padding-top: 60px;
+    }
+}
+/* Main Heading */
+.top-destination .text h2 {
+    color: #000;
+    font-family: "Abril Fatface", times, serif;
+    font-weight: bold;
+}
+/* Paragraph */
+.top-destination .text p {
+    line-height: 1.8;
+    color: #6c757d;
+    font-size: 1.5vw;
+}
+/* ------ Media Query ------ */
+@media (max-width: 768px) {
+    .top-destination .text p{
+        font-size: 1.8vw;
+    }
+}
+@media (max-width: 426px) {
+    .top-destination .text p{
+        font-size: 4.5vw;
+    }
+}
+/* First Colums */
+.top-destination .first-colums {
+    padding-left: 80px;
+    padding-top: 100px;
+    float: left;
+}
+@media (min-width: 2000px) and (max-width: 2561px) {
+    .top-destination .first-colums {
+        margin-left: 230px;
+    }
+}
+@media (max-width: 768px) {
+    .top-destination .first-colums {
+        padding-top: 50px;
+    }
+}
+/* ------ Media Query ------ */
+@media (min-width: 992px) and (max-width: 1280px) {
+    .top-destination .first-colums {
+        margin: 10px 10px 10px 10px;
+        padding: 20px 0px;
+    }
+}
+
+@media (max-width: 768px) {
+    .top-destination .first-colums {
+        width: 50%;
+        margin-left: -40px;
+        margin-right: 20px;
+    }
+}
+@media (max-width: 426px) {
+    .top-destination .first-colums {
+        width: 100%;
+    }
+}
+@media (max-width: 376px) {
+    .top-destination .first-colums {
+        margin-left: -60px;
+    }
+}
+/* Colums Image
+/* ------ Media Query ------ */
+@media (max-width: 1280px) {
+    .top-destination .first-colums .img-first img {
+        width: 210px;  
+    }
+}
+@media (max-width: 992px) {
+    .top-destination .first-colums .img-first img {
+        width: 300px;  
+    }
+}
+@media (max-width: 768px) {
+    .top-destination .first-colums .img-first img {
+        width: 350px;  
+    }
+}
+@media (max-width: 321px) {
+    .top-destination .first-colums .img-first img {
+        width: 290px;  
+    }
+}
+/* Colums Heading */
+.top-destination .img-text h3 {
+    font-family: "Abril Fatface", times, serif;
+    font-size: 22px;
+    font-weight: bold;
+    padding-top: 15px;
+}
+.top-destination .img-text h3 a {
+    color: #000;
+    text-decoration: none;
+}
+.top-destination .img-text h3 a:hover {
+    color: #65c0ba;
+}
+/* Reviews Star */
+.top-destination .reviews-star span  {
+    color: #65c0ba;
+}
+/* Reviews */
+.top-destination .reviews-star .reviews {
+    color: #ccc;
+    font-style: italic;
+    padding-left: 60px;
+}
+/* ------ Media Query ------ */
+@media (min-width: 992px) and (max-width: 1280px) {
+    .top-destination .reviews-star .reviews {
+        font-size: 12px;
+    }
+}
+
+                            /* Footer Section */
+ .footer-section {
+    width: 100%;
+    height: 500px;
+    background-color: #000;
+}
+/* ------ Media Query ------ */
+@media (min-width: 768px) and (max-width: 1100px) {
+    .footer-section {
+        width: 100%;
+        height: 900px;
+    }
+}
+@media (max-width: 576px) {
+    .footer-section {
+        width: 100%;
+        height: 1500px;
+    }
+}
+/* First Colums */
+.footer-section .first-text {
+    float: left;
+}
+/* ------ Media Query ------ */
+@media (min-width: 768px) and (max-width: 1100px) {
+    .footer-section .first-text {
+        width: 50%;
+    }
+}
+@media (max-width: 426px) {
+    .footer-section .first-text {
+        width: 100%;
+        margin-left: -80px;
+    }
+}
+.footer-section .first-text h3 {
+    font-family: "Abril Fatface", times, serif;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+    padding-top: 120px;
+    padding-left: 100px;
+}
+
+.footer-section .first-text .list-link {
+   font-size: 18px;
+    list-style: none;
+    line-height: 2;
+    padding-left: 100px;
+    padding-top: 10px;
+    
+}
+
+.footer-section .first-text .list-link a {
+    text-decoration: none;
+    color: #fff;
+    opacity: 0.5;
+}
+
+/* Second Colums */
+.footer-section .second-text {
+    float: left;
+}
+/* ------ Media Query ------ */
+@media (min-width: 768px) and (max-width: 1100px) {
+    .footer-section .second-text {
+        width: 50%;
+    }
+}
+@media (max-width: 426px) {
+    .footer-section .second-text {
+        width: 100%;
+        margin-left: -80px;
+    }
+}
+.footer-section .second-text h3 {
+    font-family: "Abril Fatface", times, serif;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+    padding-top: 120px;
+    padding-left: 100px;
+}
+
+.footer-section .second-text .list-link {
+   font-size: 18px;
+    list-style: none;
+    line-height: 2;
+    padding-left: 100px;
+    padding-top: 10px;
+    
+}
+
+.footer-section .second-text .list-link a {
+    text-decoration: none;
+    color: #fff;
+    opacity: 0.5;
+}
+
+/* Third Colums */
+.footer-section .third-text {
+    float: left;
+}
+/* ------ Media Query ------ */
+@media (min-width: 768px) and (max-width: 1100px) {
+    .footer-section .third-text {
+        width: 50%;
+    }
+}
+@media (max-width: 426px) {
+    .footer-section .third-text {
+        width: 100%;
+        margin-left: -80px;
+    }
+}
+.footer-section .third-text h3 {
+    font-family: "Abril Fatface", times, serif;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+    padding-top: 120px;
+    padding-left: 100px;
+}
+
+.footer-section .third-text .address {
+    padding-left: 100px;
+    font-style: italic;
+    color: #fff;
+    line-height: 3;
+}
+
+.footer-section .third-text .add {
+    padding-left: 100px;
+    color: #fff;
+    opacity: 0.5;
+}
+
+/* Fourth Colums */
+.footer-section .fourth-text {
+    float: left;
+}
+/* ------ Media Query ------ */
+@media (min-width: 768px) and (max-width: 1100px) {
+    .footer-section .fourth-text {
+        width: 50%;
+    }
+}
+@media (max-width: 426px) {
+    .footer-section .fourth-text {
+        width: 100%;
+        margin-left: -80px;
+    }
+}
+.footer-section .fourth-text h3 {
+    font-family: "Abril Fatface", times, serif;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+    padding-top: 120px;
+    padding-left: 100px;
+}
+.footer-section .fourth-text p .sub {
+    color: #fff;
+    opacity: 0.5;
+    padding-left: 100px;
+    line-height: 3;
+}
